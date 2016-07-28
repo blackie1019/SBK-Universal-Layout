@@ -1,0 +1,82 @@
+﻿.oddsArea {
+    text-align: right; 
+    margin-right: 20px;
+}
+
+.handicap {
+    color: #bd4701;
+    margin-right: 5px;
+}
+
+.odds {
+    color: #fff;
+    background-color: #fe9200;
+    border-color: #fe9200;
+    border: 1px solid #e4e4e4;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 0;
+    width: 38px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*.odds-wrapper {
+    word-spacing: -3px;
+    position: relative;
+    display: inline-block;
+}*/
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: .5em .5em .5em .7em;
+}
+
+.ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #333333;
+    background: #4B4B4B;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid #333333;
+    background: #4B4B4B;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0;
+}

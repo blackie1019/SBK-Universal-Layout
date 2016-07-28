@@ -1,0 +1,170 @@
+.no-border{
+    border: 0;
+}
+
+.in-line-block{
+    display: inline-block;
+}
+
+.padding-zero {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.padding-md {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.show-on-max {
+    display: none;
+}
+
+.show-on-xs {
+    display: none;
+}
+
+.show-on-sm {
+    display: none;
+}
+
+.show-on-md {
+    display: none;
+}
+
+#panel-menu {
+    width: 224px;
+    float: left;
+}
+
+#panel-menu .list-group-item {
+    background: #4b4b4b;
+    border: 0px;
+    border-bottom: 1px solid #373737;
+    border-top: 1px solid #555;
+    color: #b4b4b4
+}
+
+#panel-menu .list-group-item-p {
+    color: #8c8c8c;
+    background: #2d2d2d;
+    border: 2px solid #2d2d2d;
+}
+
+#section-betslip {
+    color: #fff;
+    background: #ff9200;
+    border: 2px solid #ff9200;
+}
+
+.mobile-menu-sports{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    overflow: hidden;
+}
+
+/* Menu */
+
+.panel-wrapper * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.panel-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.panel-controller {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tab-controller {
+    padding: 10px 10px 5px;
+    background: #FF9200;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.tab-controller * {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.tab-controller .show {
+    display: none;
+}
+
+.panel-controller-menu{
+    float: right
+}
+
+.panel-controller-menu .nav > li > a{
+    padding: 5px;
+}
+.panel-content-divide{
+    height: 1px;
+    background: #FF9200;
+}
+.panel-content {
+    overflow: hidden;
+    width: 100%;
+    background: #373737;
+}
+
+/*screen-xs*/
+
+@media (max-width: 768px) {
+    .show-on-xs {
+        display: block;
+    }
+}
+
+
+/*screen-sm*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .show-on-sm {
+        display: block;
+    }
+}
+
+
+/*screen-md*/
+
+@media (min-width: 992px) and (max-width: 1280px) {
+    .show-on-md {
+        display: block;
+    }
+}
+
+/*screen-lg corresponds with col-lg*/
+
+@media (min-width: 1280px) {
+    .show-on-max {
+        display: block;
+    }
+    #panel-main {
+        margin-left: 224px;
+        position: relative;
+    }
+    .tab-controller {
+        width: 300px;
+        float: right;
+        margin-right: 50px;
+    }
+    .panel-content {
+        width: 300px;
+        float: right;
+        margin-right: 50px;
+    }
+}
